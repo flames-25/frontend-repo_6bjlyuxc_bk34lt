@@ -8,7 +8,7 @@ function Footer() {
   return (
     <footer className="py-10 border-t border-neutral-200 dark:border-neutral-800 text-center text-sm text-neutral-600 dark:text-neutral-400">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <p>© {new Date().getFullYear()} Your Name. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Alex Carter. All rights reserved.</p>
       </div>
     </footer>
   );
@@ -16,7 +16,7 @@ function Footer() {
 
 function App() {
   return (
-    <div className="min-h-screen bg-white dark:bg-neutral-950">
+    <div className="min-h-screen bg-white text-neutral-900">
       <Navbar />
       <main>
         <Hero />
