@@ -11,7 +11,7 @@ export default function Hero() {
       <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-24 sm:py-32">
         <div className="max-w-2xl">
           <p className="inline-flex items-center rounded-full border border-black/10 bg-white/70 px-3 py-1 text-xs font-semibold text-gray-700 backdrop-blur">
-            Alex Carter • Frontend & Full‑Stack Engineer
+            Alyasa Kelana Makarim • Frontend & Full‑Stack Engineer
           </p>
           <h1 className="mt-4 text-4xl sm:text-6xl font-extrabold tracking-tight leading-tight text-gray-900">
             I build fast, modern products for the web

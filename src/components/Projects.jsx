@@ -1,26 +1,26 @@
-import { Github, ExternalLink, Code2 } from 'lucide-react';
+import { Instagram, ExternalLink, Code2 } from 'lucide-react';
 
 const projects = [
   {
     title: 'Realtime Collab Notes',
     description: 'Shared notes with presence, CRDT syncing and offline support.',
     tags: ['React', 'WebSocket', 'Tailwind'],
-    github: 'https://github.com/alexcarter/realtime-notes',
-    live: 'https://notes.alexcarter.dev',
+    instagram: 'https://www.instagram.com/kelanaverse/',
+    live: 'https://notes.example.com',
   },
   {
     title: '3D Portfolio Hero',
     description: 'Interactive Spline scene integrated with React for playful landing.',
     tags: ['React', 'Spline', 'Vite'],
-    github: 'https://github.com/alexcarter/3d-hero',
-    live: 'https://hero.alexcarter.dev',
+    instagram: 'https://www.instagram.com/kelanaverse/',
+    live: 'https://hero.example.com',
   },
   {
     title: 'Performance Toolkit',
     description: 'Lighthouse CI, Web Vitals dashboard and automated budgets.',
     tags: ['Web Vitals', 'Lighthouse', 'Node'],
-    github: 'https://github.com/alexcarter/perf-toolkit',
-    live: 'https://perf.alexcarter.dev',
+    instagram: 'https://www.instagram.com/kelanaverse/',
+    live: 'https://perf.example.com',
   },
 ];
 
@@ -45,8 +45,8 @@ export default function Projects() {
                 ))}
               </div>
               <div className="mt-5 flex items-center gap-3">
-                <a href={p.github} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 text-sm font-medium text-neutral-700 hover:text-neutral-900">
-                  <Github className="h-4 w-4" /> Code
+                <a href={p.instagram} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 text-sm font-medium text-neutral-700 hover:text-neutral-900">
+                  <Instagram className="h-4 w-4" /> Insta
                 </a>
                 <a href={p.live} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 text-sm font-medium text-indigo-600 hover:text-indigo-500">
                   <ExternalLink className="h-4 w-4" /> Live
