@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Menu, X, Github, Linkedin, Mail } from 'lucide-react'
+import { Menu, X, Instagram, Linkedin, Mail } from 'lucide-react'
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)
@@ -27,7 +27,7 @@ export default function Navbar() {
             ))}
             <div className="flex items-center gap-3 pl-3 border-l border-black/10">
               <a href="mailto:alex.carter.dev@example.com" aria-label="Email" className="text-gray-700 hover:text-gray-900"><Mail className="h-5 w-5" /></a>
-              <a href="https://github.com/alexcarter" target="_blank" rel="noreferrer" aria-label="GitHub" className="text-gray-700 hover:text-gray-900"><Github className="h-5 w-5" /></a>
+              <a href="https://instagram.com/alexcarter" target="_blank" rel="noreferrer" aria-label="Instagram" className="text-gray-700 hover:text-gray-900"><Instagram className="h-5 w-5" /></a>
               <a href="https://www.linkedin.com/in/alexcarter" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="text-gray-700 hover:text-gray-900"><Linkedin className="h-5 w-5" /></a>
             </div>
           </div>
@@ -57,7 +57,7 @@ export default function Navbar() {
             ))}
             <div className="flex items-center gap-4 px-3 pt-2">
               <a href="mailto:alex.carter.dev@example.com" aria-label="Email" className="text-gray-700 hover:text-gray-900"><Mail className="h-5 w-5" /></a>
-              <a href="https://github.com/alexcarter" target="_blank" rel="noreferrer" aria-label="GitHub" className="text-gray-700 hover:text-gray-900"><Github className="h-5 w-5" /></a>
+              <a href="https://instagram.com/alexcarter" target="_blank" rel="noreferrer" aria-label="Instagram" className="text-gray-700 hover:text-gray-900"><Instagram className="h-5 w-5" /></a>
               <a href="https://www.linkedin.com/in/alexcarter" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="text-gray-700 hover:text-gray-900"><Linkedin className="h-5 w-5" /></a>
             </div>
           </div>
